@@ -1,0 +1,22 @@
+Revision history for Perl extension Biblio::WebPortal
+
+0.04  ...
+	- Added configuration options to navigate method (scriptname, capitalize);
+	- Added description for 'LEN' relation on thesaurus;
+	- asRelations now should return an hash reference;
+	- asRelations is used to get a type for the record;
+	- Changed to Biblio:: namespace.
+
+0.03  Unknown
+
+0.02  Fri May 31 08:09:10 2002
+	- Corrected some bugs;
+	- Now, only 10 matches are shown each time;
+	- Search can be performed using a category delimiter (character '!');
+	- Constructed a log for unkown classification terms;
+	- Support for multi-catalogs of different types;
+	- Added indexes to map registers on multiple catalogs (catID.regID);
+
+0.01  Thu May 17 09:00:34 2001
+	- original version; created by h2xs 1.20 with options
+		-A -X -c -n Library::Simple

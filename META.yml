@@ -1,0 +1,12 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         Biblio-WebPortal
+version:      0.04
+version_from: WebPortal.pm
+installdirs:  site
+requires:
+    Biblio::Thesaurus:             0.16
+    DB_File:                       1.8
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.17
